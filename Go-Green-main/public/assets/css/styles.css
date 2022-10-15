@@ -1,0 +1,541 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.carasoul-item-forest{
+    background-image: url('https://images.unsplash.com/photo-1486707471592-8e7eb7e36f78?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1094&q=80');
+    height: 750px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carasoul-item-factory{
+    background-image: url('https://images.unsplash.com/photo-1578604665675-9aee692f6ddc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1231&q=80');
+    height: 750px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: grayscale(60%);
+}
+
+.body{
+    background-color: rgb(255, 252, 247);
+    overflow-x: hidden;
+}
+html{
+    overflow-x:hidden;
+}
+
+.whatwedoco{
+    margin-top: -50px;
+    height: 800px;
+    background-color: #5f554c4f;
+    align-content:stretch;
+}
+
+.col-lg-4{
+    background-color: #444f49;
+    width: 400px;
+    height: 400px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    border-radius: 5%;
+    color: white;
+}
+
+.col-lg-5{
+    background-color: #525d52;
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-radius: 5%;
+    color: white;
+}
+
+
+.headershtml{
+    font-weight: bold;
+    margin-right: 1000px;
+ }
+
+#indexhome{
+    margin-left:auto;
+    margin-right:auto;
+    width: 1519px;
+}
+
+.credit{
+    text-align: center;
+    font-size: 13px;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.subform{
+    height: 600px;
+    background-color: #b2bcb2;
+    align-content:stretch;
+    margin-left: -120px;
+    margin-top: 100px;
+}
+
+#footerabout{
+    height: 300px;
+    align-content:stretch;
+    background-color: #f1f3f1;
+    margin-left: -120px;
+    margin-top: 100px;
+}
+
+#footer{
+    height: 400px;
+    background-color: #f1f3f1;
+    align-content:stretch;
+    margin-left: -120px;
+    margin-top: 100px;
+}
+
+#rights{
+    margin-top: 40px;
+    margin-left: 650px;
+}
+
+
+.secondpart{
+    margin-left: 20px;
+}
+
+.firstpart{
+    margin-left: 20px;
+    margin-top:30px;
+}
+
+.mission-statement{
+    width:fit-content;
+    color:white;
+    font-size: 75px;
+    display: block;
+}
+
+.doimgs{
+    background-color: white;
+    border-radius: 60px;
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    margin-top: -80px;
+    margin-left: 20px;
+}
+
+.ourimpact{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    padding-top: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#ourmisss{
+    margin-top: 100px;
+    margin-left: 400px;
+    margin-bottom: 40px;
+    font-size: 65px;
+    color: #2c3e28;
+    font-weight: bold;
+}
+
+.spacingour{
+   margin-left: 50px; 
+}
+
+#ourimg{
+    width:500px;
+    height: 600px;
+    object-fit: cover;
+    margin-left: 130px;
+    margin-bottom: 120px;
+    border-radius: 20px;
+}
+
+#textour{
+    margin-bottom: 50px;
+    margin-left: 150px;
+}
+
+#ourstory1{
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 50px;
+    padding-left: 230px;
+    padding-right: 300px;
+    font-size: 25px;
+
+}
+
+#discordlink{
+    width: 50px;
+    height: 50px;
+    border-radius: 60px;
+    margin-top: 100px;
+    margin-left: 45%;
+}
+
+#instalink{
+    width: 50px;
+    height: 50px;
+    border-radius: 60px;
+    margin-top: -75px;
+    margin-left: 50%;
+}
+
+#prom{
+    margin-top: 30px;
+    margin-left: 90px;
+    color: white;
+    font-weight: bold;
+}
+
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
+
+#wanttoknow{
+   margin-left: 370px; 
+   margin-top: 50px;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   color: #0B2E04;
+   text-shadow: -1px 2px 50 #20321F;
+}
+
+#aboutbut{
+    background-color: #20321F;
+    height: 60px;
+    width: 130px;
+    padding-top: 5px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(255, 252, 247);
+    margin-top: 20px;
+    margin-left: 680px;
+}
+
+#poli{
+    margin-top: 30px;
+    margin-left: 90px;
+    color: white;
+    font-weight: bold;
+}
+
+#outr{
+    margin-top: 30px;
+    margin-left: 90px;
+    color: white;
+    font-weight: bold;
+}
+
+#newl{
+    margin-top: 30px;
+    margin-left: 90px;
+    color: white;
+    font-weight: bold;
+}
+
+#volu{
+    margin-top: 30px;
+    margin-left: 90px;
+    color: white;
+    font-weight: bold;
+}
+
+#fundr{
+    margin-top: 30px;
+    margin-left: 90px;
+    color: white;
+    font-weight: bold;
+}
+
+#parabox{
+    font-size: 18px;
+    margin-left:10px;
+    margin-right:10px;
+    color:rgb(255, 252, 247);
+}
+
+#gg{
+    font-weight: bold;
+}
+
+#navbarCollapse{
+    margin-left: 1000px;
+}
+
+#do{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: -600px;
+    margin-top: -150px;
+    font-size: 65px;
+    position: absolute;
+}
+
+#smth{
+    font-weight: bold;
+    margin-left: -600px;
+    margin-top: -70px;
+    position: absolute;
+}
+
+#crowds{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: -600px;
+}
+
+#plantimg{
+    position: absolute;
+    object-fit: cover;
+    height: 400px;
+    width: 480px;
+    border-radius: 360px;
+    margin-left: 30%;
+    filter: grayscale(40%);
+}
+
+#plant2img{
+    position: absolute;
+    object-fit: cover;
+    height: 400px;
+    width: 480px;
+    border-radius: 360px;
+    margin-left: 30%;
+}
+
+
+
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+
+#makep{
+    position: absolute;
+    left: 150px;
+    margin-top: 130px;
+    height: 50px;
+    padding-top: 13px;
+    font-weight: bold;
+}
+
+#utubev{
+margin-left: 200px;
+margin-top: 50px;
+}
+
+#whatwdp{
+    margin-left: 280px;
+    margin-top: 20px;
+    font-size: 15px;
+    color:#233120;
+}
+
+.row{
+    margin-left: 50px;;
+}
+
+#ourmiss{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 100px;
+    margin-left: 600px;
+    margin-bottom: 40px;
+    font-size: 65px;
+    color: #2c3e28;
+    font-weight: bold;
+}
+
+#textch{
+    font-family: Arial, sans-serif	;
+    margin-left: 200px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+#whatwedo{
+    margin-top: 100px;
+    margin-left: 570px;
+    margin-bottom: 50px;
+    font-size: 65px;
+    color: #233120;
+    font-weight: bold;
+}
+
+#marchimg{
+    width: 650px;
+    margin-left: 300px;
+    margin-top: 50px;;
+    
+}
+
+#subscribenew{
+    position: absolute;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 170px;
+    color:#20321F;
+
+}
+
+#beup{
+    position: absolute;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 220px;
+    margin-left: 30px;
+    color: white;
+    text-shadow: -1px 2px 0 #20321F;
+}
+
+.lead{
+width: 900px;
+margin-left: 200px;
+}
+
+.logo{
+    color:#0B2E04;
+}
+.headers{
+    color:#20321F !important; 
+}
+.make-a-promise{
+    background-color: #20321F;
+    color: white;
+}
+.what-we-do-headers{
+    color: #20321F;
+}
+
+.carousel-text-container {
+    
+}
+
+.newsletter{
+    margin-top: 60px;
+    padding: 0px 500px;
+}
+.newsletter-item{
+    display: flex;
+    font-size: 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none !important;
+}
+.subscribe-btn{
+    background-color: #20321F;
+    color: white;
+    font-style: italic;
+}
+
+.donate-btn-container{
+    margin: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-2{
+    color:#0B2E04;
+    font-size: 3rem;
+}
+
+.impact-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+.impact-items{
+    height:0;width:20%;padding-bottom:20%;
+    text-align: center;
+    border: 3px solid;
+    margin: 3px;
+}
+
+#nameform1{
+    margin-top: 170px;
+    margin-left: 150px;
+    font-weight: bold;
+    color:#20321F;
+}
+
+#name{
+    margin-left: 150px;
+    width: 300px;
+}
+
+#mailadd{
+    margin-left: 150px;
+    margin-top: 30px;
+    font-weight: bold;
+    color:#20321F;
+}
+
+#email{
+    margin-left: 150px;
+    width: 500px;
+}
+
+#submit{
+    border-radius: 50px;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+

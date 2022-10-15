@@ -1,0 +1,170 @@
+.carasoul-item-forest{
+    background-image: url('https://cutewallpaper.org/21/1920x1080-forest-wallpaper/Download-wallpaper-1920x1080-forest-fog-trees-mountains-.jpg');
+    height: 500px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mission-statement{
+    width:fit-content;
+    color:white;
+    font-size: 70px;
+    font-weight: bold;
+    display: block;
+}
+.logo{
+    color:#0B2E04;
+}
+.headers{
+    color:#20321F !important; 
+}
+.make-a-promise{
+    background-color: #20321F;
+    color: white;
+}
+.what-we-do-headers{
+    color: #20321F;
+}
+
+/*.carousel-text-container {
+    
+}*/
+
+.newsletter{
+    margin-top: 60px;
+}
+.newsletter-item{
+    display: flex;
+}
+.title{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#list1{
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropdown-check-list {
+    display: inline-block;
+  }
+  
+  .dropdown-check-list .anchor {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    padding: 5px 50px 5px 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .dropdown-check-list .anchor:after {
+    position: absolute;
+    content: "";
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    padding: 5px;
+    right: 10px;
+    top: 20%;
+    -moz-transform: rotate(-135deg);
+    -ms-transform: rotate(-135deg);
+    -o-transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+  }
+  
+  .dropdown-check-list .anchor:active:after {
+    right: 8px;
+    top: 21%;
+  }
+  .dropdown-check-list ul.items {
+    padding: 2px;
+    display: none;
+    margin: 0;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+  
+  .dropdown-check-list ul.items li {
+    list-style: none;
+  }
+  
+  .dropdown-check-list.visible .anchor {
+    color: #0094ff;
+  }
+  
+  .dropdown-check-list.visible .items {
+    display: block;
+  }
+  
+  #subscribe-form{
+    margin: 50px;
+  }
+
+  .subscribe-btn{
+    background-color:#D0DDD0;
+  }
+  
+ 
+  #list2{
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropdown-check-list1 {
+    display: inline-block;
+  }
+  
+  .dropdown-check-list1 .anchor1 {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    padding: 5px 50px 5px 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .dropdown-check-list1 .anchor1:after {
+    position: absolute;
+    content: "";
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    padding: 5px;
+    right: 10px;
+    top: 20%;
+    -moz-transform: rotate(-135deg);
+    -ms-transform: rotate(-135deg);
+    -o-transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+  }
+  
+  .dropdown-check-list1 .anchor1:active:after {
+    right: 8px;
+    top: 21%;
+  }
+  .dropdown-check-list1 ul.items1 {
+    padding: 2px;
+    display: none;
+    margin: 0;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+  
+  .dropdown-check-list1 ul.items1 li {
+    list-style: none;
+  }
+  
+  .dropdown-check-list1.visible .anchor1 {
+    color: #0094ff;
+  }
+  
+  .dropdown-check-list1.visible .items1 {
+    display: block;
+  }
