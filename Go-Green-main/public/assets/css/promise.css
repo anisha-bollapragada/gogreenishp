@@ -1,15 +1,20 @@
 .carasoul-item-forest{
-    background-image: url('https://cutewallpaper.org/21/1920x1080-forest-wallpaper/Download-wallpaper-1920x1080-forest-fog-trees-mountains-.jpg');
-    height: 500px;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-image: url('https://images.unsplash.com/photo-1486707471592-8e7eb7e36f78?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1094&q=80');
+  height: 750px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+#navbarCollapse{
+  margin-left: 67%;
+}
+
 .mission-statement{
     width:fit-content;
     color:white;
@@ -104,7 +109,7 @@
   }
   
   #subscribe-form{
-    margin: 50px;
+    margin: 10%;
   }
 
   .subscribe-btn{
