@@ -1,5 +1,9 @@
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
 .carasoul-item-forest{
-  background-image: url('https://images.unsplash.com/photo-1486707471592-8e7eb7e36f78?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1094&q=80');
+  background-image: url('https://images.unsplash.com/photo-1527268932465-b2dcfae1f7c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1282&q=80');
   height: 750px;
   width: 100%;
   background-position: center;
@@ -9,19 +13,54 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  filter:grayscale(30%);
 }
 
 #navbarCollapse{
-  margin-left: 67%;
+  margin-left: 65%;
 }
 
 .mission-statement{
     width:fit-content;
     color:white;
     font-size: 70px;
-    font-weight: bold;
     display: block;
+
 }
+
+
+#textch{
+  font-family: Arial, sans-serif	;
+  text-align: left;
+  margin-top: 1.5%;
+  font-size: 20px;
+  width: 60%;
+
+}
+
+.bgcolor{
+  width:100%;
+  background-color: #5f554c4f;
+  height: 500px;
+}
+
+#abtprom{
+  margin-top: 10%;
+  font-size: 60px;
+  color: #2c3e28;
+  font-weight: bold;
+}
+
+.promiseco{
+  display: flex;
+  align-items: flex-start;   
+  flex-direction: column;
+  width:100%;
+  flex-shrink: inherit;
+  height: 500px;
+  margin-left: 20%;
+}
+
 .logo{
     color:#0B2E04;
 }
@@ -36,10 +75,15 @@
     color: #20321F;
 }
 
-/*.carousel-text-container {
-    
-}*/
-
+.carousel-text-container {
+  display: flex;
+  align-items: flex-start;   
+  flex-direction: column;
+  width:60%;
+  margin-left: -30%;
+  flex-shrink: inherit;
+  font-weight: bold;
+}
 .newsletter{
     margin-top: 60px;
 }
@@ -49,6 +93,76 @@
 .title{
     margin-left: 10px;
     margin-right: 10px;
+}
+
+.promisesignup{
+margin-left: 10%;
+margin-top: 100px;
+}
+
+
+#discordlink{
+  width: 50px;
+  height: 50px;
+  border-radius: 60px;
+  margin-top: 80px;
+  margin-left: 45%;
+}
+
+#instalink{
+  width: 50px;
+  height: 50px;
+  border-radius: 60px;
+  margin-top: -50px;
+  margin-left: 50%;
+}
+
+#rights{
+  margin-top: 2.5%;
+  margin-left: 45%;
+}
+
+.credit{
+  text-align: center;
+  font-size: 13px;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.signupfeed{
+  display: flex;
+  flex-direction: row;
+}
+
+#promisehead{
+  font-size: 50px;
+  color: #233120;
+  font-weight: bold;
+  margin-left: 5%;
+  margin-top: 10%;
+}
+
+#footerfeed{
+  height: 300px;
+  align-content: stretch;
+  background-color: #f1f3f1;
+  margin-top: 60px;
+  width: 100%;  
+}
+
+#promisebox{
+  background-color: #c3aea885;
+  width: 40%;
+  margin-left: 5%;
+  height: 550px;
+  margin-top:100px;
+  border-radius: 10px;
+}
+
+#promisep{
+font-size: 25px;
+width: 75%;
+margin-left: 5%;
 }
 
 #list1{
