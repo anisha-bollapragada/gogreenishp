@@ -3,8 +3,8 @@
 }
 
 .carasoul-item-forest{
-  background-image: url('https://images.unsplash.com/photo-1527268932465-b2dcfae1f7c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1282&q=80');
-  height: 750px;
+  background-image: url('https://lh3.googleusercontent.com/u/0/drive-viewer/AFDK6gP1WHuQF2yRZEuT86_cGiLrsvVVZhPnn0PKcrZMb4E0JY_buMBm0zAQX3Es0TsRPIY5al_fgC8cTh1q8hqkt7m6sU8cpA=w640-h480');
+  height: 550px;
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -16,8 +16,25 @@
   filter:grayscale(30%);
 }
 
+
+#menuimg{
+  width: 2.5%; 
+  margin-right: 0.5%;
+}
+
+
+#gg{
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  color:#50594E;
+  font-size:22px;
+
+}
+
 #navbarCollapse{
-  margin-left: 65%;
+  overflow: hidden;
+  margin-left: 61.5%;
+  height: 55px;
 }
 
 .mission-statement{
@@ -28,6 +45,42 @@
 
 }
 
+
+#bridging{
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
+  margin-bottom: -5px;
+  font-weight: 100;
+}
+
+
+#bridginga{
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
+  margin-bottom: -5px;
+  font-weight: 100;
+  margin-left: 5%;
+}
+
+#bridgingf1{
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
+  margin-bottom: -5px;
+  width: 150%;
+}
+
+#bridgingf2{
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
+  margin-bottom: -5px;
+  }
+
+#crowds{
+  margin-left:0.4%;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 30px;
+  font-size: 25px;
+}
 
 #textch{
   font-family: Arial, sans-serif	;
