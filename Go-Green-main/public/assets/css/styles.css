@@ -63,7 +63,7 @@ html, body{
 }
 
 .carasoul-item-events{
-    background-image: url('https://lh3.googleusercontent.com/u/0/drive-viewer/AFDK6gPB3VBhzVTEkN0naxBlYMXAnOgK6X4pdKeHp0-eJiKj2BmPPywSUvPRM-LPS35NtG8-xyxFa0oRPOKe7sXsNQcAq-11ZA=w640-h480');
+    background-image: url('https://lh3.googleusercontent.com/u/0/drive-viewer/AAOQEOQJM9xxnClkqiyg6zSUJZhNCqNQWu1fuHTOVm8CEDgp2BeqdE7x1FjbW6uruou0NK06mQ-4gJPgyOiqPF3croL7v3iE1Q=w640-h480');
     height: 550px;
     width: 100%;
     background-position: center;
@@ -168,6 +168,10 @@ html{
 #list{
     margin-left: 10%;
     margin-top: 60px;
+}
+
+.oneline{
+    margin-top: -20%;
 }
 
 .bgourstory{
@@ -407,6 +411,16 @@ html{
 #ourmiss{
     margin-top: 10%;
     font-size: 55px;
+    margin-left: 20%;
+    color: #50594E;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+}
+
+
+#ourmisse{
+    margin-top: 10%;
+    font-size: 40px;
     margin-left: 20%;
     color: #50594E;
     font-weight: bold;
