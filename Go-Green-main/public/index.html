@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Go Greenish</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
     <link rel="icon" type="image/x-icon" href="https://cdn.discordapp.com/attachments/1011018774054436927/1063958472535846932/GG_2.png">
     <!-- CSS only -->
     <link
@@ -23,14 +26,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
 
 
-    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/styles.css">
     <script src="script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="icon" href="ggimg.jpg">
 
+
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
   </head>
+  
   <body>
     <div id="indexhome">
     <header>
@@ -133,7 +138,7 @@
 
             </div>
           </div>
-          <img id="imgindexhomepage" src="https://lh3.googleusercontent.com/u/0/drive-viewer/AAOQEOQQQevynDhvJgdgJNO7j2PotNtMz9s9c4IHuG9Xy5OdqwOjJxU32fB7AWJfeGo67S9QtKhY_aPuIZMYA4HwbeO5xqoB=w736-h480">
+          <img id="imgindexhomepage" src="https://lh3.googleusercontent.com/u/0/drive-viewer/AFGJ81qmPkuusxEh_og3MvzFL9ErofgLZaM-M64rJKJ6QiD33BxnvRgfut-wyeZ9CiHsXoUMRlTz4WXbCLBZ6u8SvdNB7aD5HQ=w640-h480">
     </div>
 
           <!--<div class="col-md-5">
@@ -167,6 +172,20 @@
             </div>
         </div>
 
+       <!--<script>
+          $(document).ready(function(){
+            $(".col-lg-4").blur(function(){
+              //console.log ('jQuery JavaScript library is loaded from Google CDN!');
+              $(".col-lg-4").fadeOut(1000);
+            })
+
+            $(".col-lg-4").focus(function(){
+              $(".col-lg-4").fadeIn(1000);
+            })
+
+          });
+        </script>
+      -->
         <div class="bgcolor">
         <div class="secondpart">
         <h2 class="featurette-heading" id="whatwedo">WHAT WE DO</h2>
@@ -230,10 +249,11 @@
     </div>
 
 
-        <!-- AB: I tried adding a background color property but for some reason it cuts out the edges so I'll have to work that out -->
+      <!-- FOOTER -->
+      <footer id="footer">
+
+        <div class = "leftsidefooter">
         <h1 id="subscribenew">Subscribe to our newsletter</h1>
-        <p id="beup">Be updated</p>
-        <div class="subform">
         <form id="subscribe-form">
           <div class="mb-3">
             <label for="name" class="form-label" id="nameform1">Name</label>
@@ -245,12 +265,9 @@
           </div>
           <input type="submit" class="btn subscribe-btn" id="submit" value="Subscribe"/>
         </form>
-        <!-- /END THE FEATURETTES -->
       </div>
-      <!-- /.container -->
 
-      <!-- FOOTER -->
-      <footer id="footer">
+      <div class = "rightsidefooter">
         <p>
         <a href="https://discord.gg/WnR4vQBBZ3">
         <img id="discordlink" src="https://cdn-icons-png.flaticon.com/512/3670/3670157.png">
@@ -279,9 +296,10 @@
       <a href="https://www.flaticon.com/free-icons/instagram" title="instagram icons">Instagram icons created by Pixel perfect - Flaticon</a>
     </div>
       <p id="rights">
-          © 2017–2022 Go Greenish, Inc. 
+          © 2017–2023 Go Greenish, Inc. 
       </p>
         </p>
+      </div>
       </footer>
     </main>
 
