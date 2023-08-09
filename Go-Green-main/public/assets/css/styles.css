@@ -22,14 +22,20 @@ html, body{
 
 
 #centerpromise{
-    margin-left: 25%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-  }
+    margin-top: 70px;
+}
+
+.rowsocials{
+    display: flex;
+    flex-direction: row;
+    margin-left: 46%;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
   
 
 .carasoul-item-forestp{
-    background-image: url('https://images.unsplash.com/photo-1527268932465-b2dcfae1f7c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1282&q=80');
+    background-image: url('https://images.unsplash.com/photo-1597877794942-ee2e9381c87c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80');
     height: 550px;
     width: 100%;
     background-position: center;
@@ -43,7 +49,7 @@ html, body{
   }
 
 .carasoul-item-factory{
-    background-image: url('https://images.unsplash.com/photo-1578604665675-9aee692f6ddc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1231&q=80');
+    background-image: url('https://images.unsplash.com/photo-1566419808810-658178380987?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80');
     height: 550px;
     width: 100%;
     background-position: center;
@@ -53,7 +59,7 @@ html, body{
     display: flex;
     justify-content: center;
     align-items: center;
-    filter: grayscale(60%);
+    filter: grayscale(20%);
 }
 
 .carasoul-item-news{
@@ -71,17 +77,18 @@ html, body{
 }
 
 .carasoul-item-lake{
-    background-image: url('https://images.unsplash.com/photo-1528492501711-867fd2c44bb5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+    background-image: url('https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80');
     height: 550px;
     width: 100%;
     background-position: center;
+    background-position-y: 30%;
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    filter: grayscale(60%);
+    filter: grayscale(10%);
 }
 
 .carasoul-item-events{
@@ -97,7 +104,7 @@ html, body{
     align-items: center;
     filter: grayscale(80%);
 }
-
+  
 
 #cred{
     margin-left: 750px;
@@ -129,9 +136,10 @@ html{
 
 .bgcolor{
     width: 100%;
-    background-color: #5f554c1d;
+    background-color: white;
     height: 1100px;
     margin-top: 0%;
+    margin-bottom: -50px;
 }
 
 .bgcolorevents{
@@ -177,7 +185,7 @@ html{
 #donatebox{
     font-family: 'Poppins', sans-serif;
     margin-top: 50px;
-    background-color:#444f49;
+    background-color:#436370c0;
     width: 40%;
     margin-left: 50%;
     margin-top: -500px;
@@ -187,10 +195,63 @@ html{
     color: white;
     position: absolute;
 }
+/* Reset default list styles */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  /* Dropdown container */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Dropdown button */
+  .dropdown-btn {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    color: #333;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    display: none;
+  }
+  
+  /* Dropdown list items */
+  .dropdown-content li {
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  /* Hover effect for list items */
+  .dropdown-content li:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Show the dropdown content when the button is clicked */
+  .dropdown.active .dropdown-content {
+    display: block;
+  }
+  
+  
 
 #rowdonate{
-    margin-top: 150px;
-    margin-bottom: 60px;
+    margin-top: 250px;
+    margin-bottom: 200px;
 }
 
 #list{
@@ -201,16 +262,12 @@ html{
 .bgourstory{
     margin-top: -100px;
     height: 550px;
-    background-color: #5f554c1d;
-    align-content: stretch;
-}
+    }
 
 .col-lg-4{
-    background-color: #444f49;
+    background-color:#436370c0;
     width: 28%;
     height: 45vh;
-    margin-left: 2.5%;
-    margin-bottom: 2.5%;
     border-radius: 5%;
     color: white;
     margin: 0 auto;
@@ -218,7 +275,7 @@ html{
 }
 
 .col-lg-5{
-    background-color: #525d52;
+    background-color: #444f49;
     position: relative;
     width: 400px;
     height: 400px;
@@ -228,6 +285,15 @@ html{
     color: white;
 }
 
+.col-lg-6{
+    background-color: #436370c0;
+    width: 28%;
+    height: 45vh;
+    border-radius: 5%;
+    color: white;
+    margin: 0 auto;
+    margin-bottom: 2.5%;
+}
 
 .headershtml{
     font-weight: bold;
@@ -302,8 +368,17 @@ html{
 }
 
 #footer{
-    height: 400px;
-    background-color: #f1f3f1;
+    height: 450px;
+    background-color: rgb(243, 241, 240);
+    align-content:stretch;
+    margin-left: -7.5%;
+    margin-top: -100px;
+}
+
+
+#footerp{
+    height: 450px;
+    background-color: rgb(243, 241, 240);
     align-content:stretch;
     margin-left: -7.5%;
 }
@@ -318,7 +393,7 @@ html{
 
 #rights{
     margin-top: 2.5%;
-    margin-left: 45%;
+    margin-left: 42%;
 }
 
 
@@ -354,39 +429,40 @@ html{
 }
 
 #ourworklist{
+    display: flex;
+    flex-direction: row;
     margin-top: 20px;
     font-family: 'Poppins', sans-serif;
-    font-size: 30px;
+    font-size: 40%;
+    line-height: 35px;
 }
 
 .ourworkblurb{
-    width:fit-content;
     color:white;
     font-size: 75px;
-    display: block;
-    margin-left: 29%;
+    margin: 0 auto;
+
 }
 
 .listourwork{
-    justify-content: center;
-    margin-left: -15%;
-    margin-top: 35px;
+    text-align: center;
+    margin-top: -10px;
 }
 
 #imgindexhomepage{
     filter: grayscale(30%);
     height: 540px;
-    margin-top: -515px;
-    margin-left: 50%;
+    margin-top: -450px;
+    margin-left: 55%;
     border-radius: 25px;
 }
 
 .doimgs{
     background-color: white;
-    border-radius: 60px;
-    width: 15%;
-    height: 50px;
-    padding: 1%;
+    image-orientation: inherit;
+    border-radius: 5px;
+    width: 17%; /* Change width to auto */
+    padding: 3%;
     margin-top: -23%;
     margin-left: 5%;
 }
@@ -411,11 +487,14 @@ html{
 
 #indexbox{
     width: 80%;
-    background-color: #50594E;
-    height: 620px;
-    margin-top: 50px;
+    background-color: #436370c0;
+    height: 560px;
+    margin-top: 30px;
     border-radius: 25px;
     margin-left:-10%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
 }
 
 #junegloom{
@@ -453,7 +532,7 @@ html{
 
 
 #edco{
-    background-image: url('https://lh3.googleusercontent.com/u/0/drive-viewer/AFGJ81o2TFKMjYK-7kGaAE6IUBO4v71MgeuGXyiVxveHuycR6xlDN2lq8JnTddTPnof_s0e3cJR0bFd9pKqLsVPpov9JRMpl3Q=w1367-h480');
+    background-image: url('https://lh3.googleusercontent.com/u/0/drive-viewer/AITFw-zJ4QZwb2kCB5yJ78W_jBEGyDcd88nwJ4h5bUgV9bxVYBbrOUrv6L-RrMnZp_4-OVTWduP0G8vZ3rHYX-lzTNMtMZ0EyA=w640-h480');
     background-repeat: no-repeat;
     background-position: center;
     width: 25%;
@@ -524,8 +603,8 @@ html{
 
 #ourmiss1{
     margin-top: 6%;
-    font-size: 50px;
-    margin-left: 3% ;
+    margin-left: 3%;
+    font-size: 270%;
     color: white;
     font-weight: 400;
     font-family: 'Playfair Display', serif;
@@ -616,14 +695,16 @@ html{
 
 #ourstory1{
     font-family: 'Poppins', sans-serif;
-    text-align: center;
-    margin-top: 30px;
-    margin-left: 50px;
+    text-align: left;
+    margin-top: -20px;
+    margin-left: 2%;
     padding-left: 230px;
     padding-right: 300px;
     font-size: 23px;
-    color:rgb(35, 33, 32);
+    color: #526254;
+    line-height: 40px;
 }
+
 
 #discordlink{
     width: 50px;
@@ -633,12 +714,27 @@ html{
     margin-left: 45%;
 }
 
+
+#discordlinkp{
+    width: 50px;
+    height: 50px;
+    border-radius: 60px;
+    margin-right: 10px;
+}
+
 #instalink{
     width: 50px;
     height: 50px;
     border-radius: 60px;
     margin-top: -75px;
     margin-left: 50%;
+}
+
+
+#instalinkp{
+    width: 50px;
+    height: 50px;
+    border-radius: 60px;
 }
 
 #instalinkindex{
@@ -731,7 +827,7 @@ a:active { text-decoration: none; }
 }
 
 #parabox{
-    font-size: 18px;
+    font-size: 130%;
     margin-left:5%;
     margin-right:5%;
     color:rgb(255, 252, 247);
@@ -753,7 +849,7 @@ a:active { text-decoration: none; }
 
 #navbarCollapse{
     overflow: hidden;
-    margin-left: 58%;
+    margin-left: 60%;
     height: 55px;
 }
 
@@ -861,6 +957,22 @@ a:active { text-decoration: none; }
     border-radius: 20px;
 }
 
+
+#makep2{
+    /* margin-left: -40%;
+     margin-top: 10%; */
+     height: 45px;
+     padding-top: 1vh;
+     padding-top:10px;
+     padding-bottom:10px;
+     padding-left: 15px;
+     padding-right: 15px;
+     background-color: #ffffff;
+     color:rgb(0, 0, 0);
+     font-family: 'Poppins', sans-serif;
+     border-radius: 20px;
+ }
+ 
 #utubev{
 margin-left: 200px;
 margin-top: 50px;
@@ -874,7 +986,14 @@ margin-top: 50px;
 }
 
 .row{
-margin-left: 5%;    
+    display: flex;
+    margin: 0 auto;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.row.visible{
+    opacity: 1;
 }
 
 .ourmiss{
@@ -886,8 +1005,17 @@ margin-left: 5%;
     font-family: 'Playfair Display', serif;
 }
 
+#playfairabout{
+    font-size: 55px;
+    margin-top: -10px;
+    margin-left: 17%;
+    width: 70%;
+    line-height: 70px;
+    color: #526254;
+}
+
 #story{
-    margin-top: 100px;
+    margin-top: 150px;
     margin-left: 40%;
     margin-bottom: 40px;
     font-size: 65px;
@@ -966,7 +1094,7 @@ margin-left: 5%;
 
 #calender{
  margin-left: 12.5%;
- margin-bottom: 5%;
+ margin-bottom: 15%;
 }
 
 #junegloompic{
@@ -1020,12 +1148,13 @@ margin-left: 5%;
 }
 
 #ourstory{
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
     padding-top: 80px;
-    margin-left: 600px;
+    margin-left: 17%;
     margin-bottom: 40px;
-    font-size: 65px;
-    color: #2c3e28;
+    font-weight: 600;
+    font-size: 30px;
+    color: #526254;
     font-weight: 500;  
 }
 
@@ -1096,23 +1225,23 @@ margin-left: 5%;
 
 #textch1{
     font-family: 'Poppins', sans-serif;
-    color: rgb(251, 241, 241);
+    color: white;
     text-align: left;
-    margin-top: 7%;
-    margin-left: 5%;
+    margin-top: 20px;
+    margin-left: 3%;
     font-weight: 100;
     width: 70%;
     height: 300px;
+    font-size: 130%;
 }
 
 #whatwedo{
-    margin-top: 5%;
-    margin-bottom: 2%;
-    margin-left: 38%;
-    font-size: 30px;
-    color:#3a3634;
-    font-weight: bold;
-    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 45px;
+    color:#242d36ff;
+    font-family: 'Playfair Display', serif;
 
 }
 
@@ -1129,7 +1258,7 @@ margin-left: 5%;
 }
 
 #subscribenew{
-    margin-left: 10%;
+    margin-left: 12%;
     color:#20321F;
     font-family: 'Playfair Display', serif;
     font-size: 30px;
@@ -1137,26 +1266,22 @@ margin-left: 5%;
 }
 
 .bgindex{
-    background-image: url('https://images.unsplash.com/photo-1535063708406-59bb38b4e52c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
-    opacity: 70%;
-    height: 480px;
+    background-color:#526254;
+    height: 485px;
     width: 100%;
     background-position-y: 35%;
     background-repeat:no-repeat;
     background-size:cover;
     margin-top: 50px;
-    filter: grayscale(60%);
     display: flex;
+    flex-direction:column;
 
 }
 
 #smallpoppins{
     font-family: 'Poppins', sans-serif;
-    color: white;
-    font-size: 35px;
-    font-weight: 600;
-    width: 100%;
-    margin-left: 23%;
+    color: #B0BDB8;
+    font-size: 25px;
     margin-top: 50px;
 }
 
@@ -1164,10 +1289,10 @@ margin-left: 5%;
     font-family: 'Playfair Display', serif;
     font-size: 50px;
     font-weight: bold;
-    margin-left: 7.5%;
     width: 100%;
     font-weight: 400;
-    color:#233120;
+    color:white;
+    margin-top: 25px;
 }
 
 #beup{
@@ -1275,6 +1400,7 @@ width: 120%;
     margin-left: 12%;
     font-weight: bold;
     color:#20321F;
+    font-family: 'Poppins', sans-serif;
 }
 
 #name{
@@ -1284,9 +1410,10 @@ width: 120%;
 
 #mailadd{
     margin-left: 12%;
-    margin-top: 2%;
+    margin-top: 1%;
     font-weight: bold;
     color:#20321F;
+    font-family: 'Poppins', sans-serif;
 }
 
 #email{
@@ -1298,6 +1425,155 @@ width: 120%;
     border-radius: 50px;
     margin-top: 2%;
     margin-left: 12%;
+    font-family: 'Poppins', sans-serif;
 }
 
 
+/*
+
+@media (max-width: 1300px){
+    #navbarCollapse{
+        margin-left: 35%;
+    }
+    #textch1{
+     font-size: 110%;
+    }
+    #imgindexhomepage{
+        height: 50%;
+    }
+   }
+
+
+
+@media (max-width: 992px){
+    #navbarCollapse{
+        margin-left: 20%;
+    }
+
+    #textch1{
+        font-size: 120%;
+        text-align: center;
+        margin-left: 10%;
+       }
+
+    #ourmiss1{
+        font-size: 250%;
+        text-align: center;
+    }
+       #imgindexhomepage{
+        display:none;
+    }
+
+    #indexbox{
+        margin: 0 auto;
+        width: 700px;
+    }
+  }
+
+
+@media (max-width: 768px){
+    #textch1{
+        font-size: 90%;
+        text-align: center;
+       }
+       
+    #indexbox{
+        padding-left: 70px;
+        margin: 0 auto;
+        width: 700px;
+    }
+
+  }
+  
+*/
+
+@media (max-width: 1300px) {
+    #navbarCollapse{
+        margin-left: 40%;
+    }
+
+    #indexbox {
+      width: 90%;
+      margin-left: -5%;
+    }
+  
+    #ourmiss1 {
+      font-size: 250%;
+    }
+  
+    #textch1 {
+      width: 55%;
+      font-size: 105%;
+    }
+  
+    #imgindexhomepage {
+      height: 400px;
+      margin-top: -390px;
+      margin-left: 45%;
+    }
+
+    #ourworklist{
+        font-size: 30%
+    }
+
+    .row{
+
+    }
+  }
+  
+  @media (max-width: 1000px) {
+    #indexbox {
+      width: 95%;
+      margin-left: -2.5%;
+    }
+  
+    #ourmiss1 {
+      font-size: 200%;
+    }
+  
+    #textch1 {
+      width: 90%;
+      font-size: 100%;
+      height: auto;
+      padding-right: 10px;
+    }
+  
+    #imgindexhomepage {
+      height: 30%;
+      margin-top: -225px;
+      margin-left: 40%;
+    }
+
+    #ourworklist{
+        font-size: 25%
+    }
+  }
+  
+  @media (max-width: 768px) {
+    #indexbox {
+      width: 100%;
+      margin-left: 0;
+      margin-top: 20px;
+    }
+  
+    #ourmiss1 {
+      font-size: 180%;
+    }
+  
+    #textch1 {
+      width: 100%;
+      font-size: 100%;
+      height: auto;
+    }
+  
+    #imgindexhomepage {
+      height: 200px;
+      margin-top: -155px;
+      margin-left: 50%;
+    }
+
+    #ourworklist{
+        font-size: 24%;
+        line-height: 25px;
+    }
+  }
